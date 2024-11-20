@@ -84,7 +84,7 @@
             <div class="bg-white rounded-lg shadow-md p-8">
                 <h2 class="text-2xl font-bold text-gray-800 mb-6">Featured Projects</h2>
                 
-                <!-- Project Card -->
+                <!-- CodeAIdeProject Card -->
                 <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
                     <div class="flex flex-col md:flex-row justify-between items-start gap-6">
                         <div class="flex-1">
@@ -122,27 +122,57 @@
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-gray-800 mb-2">figrid</h3>
                             <p class="text-gray-600 mb-4">
-                                A lightweight Python library that simplifies the creation of publication-ready multi-panel figures. 
-                                Built as a wrapper around matplotlib, figrid provides an intuitive interface for arranging and 
-                                styling complex scientific visualizations with precise control over layout and formatting.
+                                During my time at the Allen Institute, I worked as a core member of the team to develop and build a large scale data acquisition and processing pipeline consisting of optical recordings of neural activity during visually guided behavior.
+                                Recordings were obtained from thousands of neurons in hundreds of imaging sessions using two-photon microscopy, providing access to simultaneous activity across the visual cortex while mice performed a visually guided change detection task.
+                                This dataset is now available to the public and can be used to answer questions about the relationship between activity in genetically defined cortical cell types, visual stimuli, and behavior.
                             </p>
                         </div>
                         <div class="w-full md:w-2/3 rounded-lg overflow-hidden shadow-md">
-                            <img src="assets/images/sample_figrid_figure.png" 
-                                 alt="Sample figure created with figrid" 
+                            <img src="assets/images/allen_vb_screenshot.png" 
+                                 alt="Screenshot of Allen Visual Behavior website" 
                                  class="w-full h-auto object-cover">
                         </div>
                     </div>
                     <div class="flex space-x-4 mt-4">
-                        <a href="https://github.com/dougollerenshaw/figrid" 
+                        <a href="https://portal.brain-map.org/circuits-behavior/visual-behavior-2p" 
                            target="_blank" rel="noopener noreferrer"
+                           class="inline-block bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-900 transition-colors">
+                            View on brain-map.org
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Allen Institute Project Card -->
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                    <div class="flex flex-col md:flex-row justify-between items-start gap-6">
+                        <div class="flex-1">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">CodeAIde</h3>
+                            <p class="text-gray-600 mb-4">
+                                An AI-powered coding assistant that streamlines Python development through natural language interactions. 
+                                Users can write, execute, and debug code directly in the application without managing environments or dependencies.
+                                A great tool for beginners and for quickly prototyping ideas.
+                            </p>
+                            <ul class="list-disc list-inside text-gray-600 mb-4">
+                                <li>Natural language code generation and modification</li>
+                                <li>Integrated speech-to-text - Just click the microphone icon and describe what you want to do</li>
+                                <li>Integrated code execution environment</li>
+                                <li>Automatic error handling and AI-assisted debugging</li>
+                                <li>Support for Google, OpenAI and Anthropic APIs</li>
+                            </ul>
+                        </div>
+                        <div class="w-full md:w-1/2 rounded-lg overflow-hidden shadow-md">
+                            <img src="assets/images/codeaide_sample.png" 
+                                 alt="CodeAIde Screenshot" 
+                                 class="w-full h-auto object-cover">
+                        </div>
+                    </div>
+                    <div class="flex space-x-4">
+                        <a href="https://github.com/dougollerenshaw/CodeAIde" 
                            class="inline-block bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-900 transition-colors">
                             View on GitHub
                         </a>
                     </div>
                 </div>
-                
-                <!-- Additional project cards would go here -->
                 
             </div>
         </section>
